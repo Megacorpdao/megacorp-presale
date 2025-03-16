@@ -1,25 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MegaCorp Presale</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MegaCorp Coming Soon</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .container {
+      max-width: 800px;
+      background: #111;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255, 0, 255, 0.5);
+    }
+    h1 {
+      color: #ff00ff;
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+    .email-input {
+      padding: 10px;
+      width: 70%;
+      max-width: 300px;
+      border: 1px solid #ff00ff;
+      border-radius: 5px;
+      background-color: #222;
+      color: #fff;
+      margin-right: 5px;
+    }
+    .notify-btn {
+      padding: 10px 20px;
+      border: none;
+      background: #ff00ff;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+  </style>
 </head>
 <body>
-    <div class="crt-screen">
-        <div class="tv-frame">
-            <div class="screen-content">
-                <h1>Welcome to MegaCorp Presale</h1>
-                <p>Secure your $CORP governance tokens today!</p>
-                <button id="buy-token">Buy Now</button>
-                <audio id="background-audio" controls autoplay loop>
-                    <source src="https://www.youtube.com/watch?v=tLYL_3NcJck" type="audio/mpeg">
-                    Your browser does not support the audio tag.
-                </audio>
-            </div>
-        </div>
-    </div>
-    <script src="script.js"></script>
+
+<div class="container">
+  <img src="https://raw.githubusercontent.com/Megacorpdao/megacorp-presale/refs/heads/main/CRT.webp" alt="MegaCorp Retro">
+  <h1>MegaCorp is Launching Soon!</h1>
+  <p>Stay tuned for our exciting new platform. Enter your email to be the first to know!</p>
+  <input type="email" class="email-input" placeholder="Enter your email">
+  <button class="notify-btn">Notify Me</button>
+</div>
+
 </body>
 </html>
